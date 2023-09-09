@@ -1,0 +1,11 @@
+var a=10;
+console.log(a);//10
+var $a1_='Javascript';
+console.log($a1_);//Javascript
+var b=10;
+b=20;
+console.log(b);//20
+var b3=90;
+ var b3='Spam';
+console.log(b3);//Spam
+
