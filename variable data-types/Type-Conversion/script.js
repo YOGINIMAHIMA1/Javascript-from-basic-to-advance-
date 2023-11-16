@@ -4,7 +4,7 @@ amount= parseInt(amount);
 amount=+amount;
 amount=Number(amount);
 //convert number to string
-amount= amount.ToString();
+amount= amount.toString();
 amount=String(amount);
 //convert string to decimal
 amount=parseFloat(amount);
