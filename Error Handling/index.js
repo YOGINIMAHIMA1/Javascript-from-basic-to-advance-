@@ -17,7 +17,7 @@ try
 }
 catch(err)
 {
-  console.log(err);  //TypeError: Assignment to constant variable.
+  console.log(err);  //TypeError: Assignment to constant variable
                                     //at <anonymous>:4:7
 }    
 // console.error in try catch block
@@ -30,3 +30,20 @@ catch(err)
 {
   console.error(err);
 }
+//    console.table in try catch block
+
+"use strict";
+const makeError= () =>
+{
+try
+{
+  const  name="xoxo"
+  name="jiangly"
+}
+catch(err)
+{
+  console.table(err);
+  console.error(err.name);
+}
+};
+makeError();
